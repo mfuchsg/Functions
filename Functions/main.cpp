@@ -1,14 +1,36 @@
-//
-//  main.cpp
-//  Functions
-//
-//  Created by Matvei Gavrilchik on 27.08.22.
-//
+#include<iostream>
+using namespace std;
 
-#include <iostream>
+int Add(int a, int b);
+int Sub(int a, int b);
+int Mul(int a, int b);
+double Div(int a, int b);
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    setlocale(LC_ALL, " ");
+    int a,b;
+    cout << "Введите два числа: "; cin >> a >> b;
+    int c = Add(a,b);
+    cout << a << " + " << b << " = " << c << endl;
+    cout << a << " - " << b << " = " << Sub(a,b) << endl;
+    cout << a << " * " << b << " = " << Mul(a,b) << endl;
+    cout << a << " / " << b << " = " << Div(a,b) << endl;
+}
+int Add(int a, int b)
+{
+    int c = a + b;
+    return c;
+}
+int Sub(int a, int b)
+{
+    return a-b;
+}
+int Mul(int a, int b)
+{
+    return a * b;
+}
+double Div(int a, int b)
+{
+    return (double)a / b;
 }
