@@ -12,10 +12,12 @@
 		F508B46428BAB136000F2ECC /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46228BAB136000F2ECC /* Sort.cpp */; };
 		F508B46728BAB169000F2ECC /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46528BAB169000F2ECC /* Print.cpp */; };
 		F508B46A28BAB190000F2ECC /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46828BAB190000F2ECC /* Statistics.cpp */; };
-		F54701B228B98DCB00BFF318 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54701AD28B98DC200BFF318 /* main.cpp */; };
-		F5DE78D828BAB39800B0F45D /* Fillrand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B45E28BAAFE4000F2ECC /* Fillrand.cpp */; };
-		F5DE78D928BAB39C00B0F45D /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46528BAB169000F2ECC /* Print.cpp */; };
-		F5DE78DA28BAB3B100B0F45D /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46228BAB136000F2ECC /* Sort.cpp */; };
+		F53190ED28BBF7D600354FF5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54701AD28B98DC200BFF318 /* main.cpp */; };
+		F53190F328BBF84900354FF5 /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46828BAB190000F2ECC /* Statistics.cpp */; };
+		F53190F428BBF97200354FF5 /* Fillrand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B45E28BAAFE4000F2ECC /* Fillrand.cpp */; };
+		F53190F528BBF97500354FF5 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46228BAB136000F2ECC /* Sort.cpp */; };
+		F53190F628BBF97800354FF5 /* Shift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE78DC28BAB40F00B0F45D /* Shift.cpp */; };
+		F53190F728BBF97B00354FF5 /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F508B46528BAB169000F2ECC /* Print.cpp */; };
 		F5DE78DE28BAB40F00B0F45D /* Shift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DE78DC28BAB40F00B0F45D /* Shift.cpp */; };
 /* End PBXBuildFile section */
 
@@ -215,10 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DE78DA28BAB3B100B0F45D /* Sort.cpp in Sources */,
-				F5DE78D928BAB39C00B0F45D /* Print.cpp in Sources */,
-				F5DE78D828BAB39800B0F45D /* Fillrand.cpp in Sources */,
-				F54701B228B98DCB00BFF318 /* main.cpp in Sources */,
+				F53190F728BBF97B00354FF5 /* Print.cpp in Sources */,
+				F53190F628BBF97800354FF5 /* Shift.cpp in Sources */,
+				F53190F528BBF97500354FF5 /* Sort.cpp in Sources */,
+				F53190F428BBF97200354FF5 /* Fillrand.cpp in Sources */,
+				F53190F328BBF84900354FF5 /* Statistics.cpp in Sources */,
+				F53190ED28BBF7D600354FF5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

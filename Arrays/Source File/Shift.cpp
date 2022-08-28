@@ -4,7 +4,6 @@
 //
 //  Created by Matvei Gavrilchik on 28.08.22.
 //
-
 #include "Shift.hpp"
 void ShiftLeft(int arr[], const int n)
 {

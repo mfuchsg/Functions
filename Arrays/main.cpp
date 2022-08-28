@@ -16,7 +16,7 @@ int main()
     Print(arr, n);
     Sort(arr, n);
     Print(arr,n);
-    cout << "Сумма элементов массива: " << Sum(arr, n) << endl;
+   cout << "Сумма элементов массива: " << Sum(arr, n) << endl;
     cout << "Среднее арифмитическое элементов массива: " << Avg(arr, n) << endl;
     minValue(arr, n);
     maxValue(arr, n);

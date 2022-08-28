@@ -1,4 +1,5 @@
 #pragma once
+#include "stdafx.hpp"
 #include <stdio.h>
 int Sum(int arr[], const int n);
 double Sum(double arr[], const int n);

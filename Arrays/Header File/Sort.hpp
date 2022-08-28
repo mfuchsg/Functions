@@ -1,4 +1,5 @@
 #pragma once
+#include "stdafx.hpp"
 #include <stdio.h>
 
 void Sort(int arr[], const int n);
